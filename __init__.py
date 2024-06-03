@@ -1,7 +1,7 @@
 import bpy
 import json
-from .MeshUtils import MeshesManipulator, MeshesTransformedContainer, MeshesTransformedContainer__of__MeshesSimpleDeformator, MeshesSimpleDeformator
-from .DefaultParams import DEFAULT_PARAMS
+from .src.MeshUtils import MeshesManipulator, MeshesTransformedContainer, MeshesTransformedContainer__of__MeshesSimpleDeformator, MeshesSimpleDeformator
+from .src.DefaultParams import DEFAULT_PARAMS
 
 bl_info = {
     "name": "SimpleDeforms panel",
